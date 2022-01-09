@@ -1,0 +1,28 @@
+body {
+  background-color: green;
+}
+
+button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  display: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#card {
+  margin-top: 80px;
+}
+
+#card > img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
